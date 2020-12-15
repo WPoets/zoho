@@ -9,8 +9,7 @@
 
 
 //Include main zoho class file
-$path = \aw2_library::$plugin_path . "libraries/zoho/";
-require_once $path . 'zoho.php';
+require_once  __DIR__ . '/includes/zoho.php';
 
 
 function config($atts,$content=null,$shortcode){

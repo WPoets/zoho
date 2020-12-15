@@ -1,5 +1,5 @@
 <?php    
-include( plugin_dir_path( __FILE__ ) . 'vendor/autoload.php');
+//include( plugin_dir_path( __FILE__ ) . 'vendor/autoload.php');
 
 define("ZOHO_TOKEN_FOLDER_NAME", "zoho-token");
 define("ZOHO_TOKEN_TXT_FILE_NAME", "zcrm_oauthtokens.txt");
